@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Wear - Loja de Roupas Minimalista</title>
+  
+
+    <style>
+        /* Reset e estilo básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f7f7f7;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 2rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #999;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem;
+            background-color: #e9e9e9;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .galeria,
+        .destaques {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .item {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+            background: #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+            background-color: #fff;
+            margin-top: 3rem;
+        }
+        .img{
+            size: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+   <header id="topo">
+        
+        <div class="navbar">
+            <div class="logo">Minimal Wear</div>
+            <nav>
+    <ul>
+        <li><a href="projeto.html">Início</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="destaques.html">Destaques</a></li>
+    </ul>
+</nav>
+
+
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Estilo Minimalista, Elegância Essencial</h1>
+       <p>Bem-vindo à Minimal Wear
+Estilo essencial, conforto autêntico. <br>
+Na Minimal Wear, acreditamos que menos é mais. Cada peça é criada para oferecer simplicidade, qualidade e elegância atemporal — porque vestir-se bem não precisa ser complicado.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Categorias</h2>
+        <p>Escolha entre nossas categorias exclusivas:</p>
+        <div class="galeria">
+            <div class="item">
+                <div class="img">
+                    <a href="vestido1.html"><img src="https://img.lojasrenner.com.br/item/900646000/original/3.jpg" alt=""></a>
+                    
+                </div>
+                <h3>Roupas Masculinas</h3>
+            </div>
+            <div class="item">
+                <a href="seccaofeminina.html"><div class="img"> <img src="https://img.lojasrenner.com.br/item/929748579/original/3.jpg" alt=""></a>
+                <h3>Roupas Femininas</h3></div>
+            </div>
+            <div class="item">
+                <a href="seccaoAcessorios.html"><div class="img"> <img src="https://img.lojasrenner.com.br/item/929470722/original/2.jpg" alt=""></a></div>
+                <h3>Acessórios</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="galeria">
+            <div class="item">
+                <div><img src="https://img.lojasrenner.com.br/item/928655119/original/3.jpg" alt=""></div>
+            </div>
+            <div class="item">
+                <div><img src="https://img.lojasrenner.com.br/item/930471458/original/3.jpg" alt=""></div>
+            </div>
+            <div class="item">
+               <div><img src="https://img.lojasrenner.com.br/item/929816068/original/2.jpg" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destaques">
+        <h2>Destaques da Semana</h2>
+        <div class="destaques">
+            <div class="item">
+                <div><img src="https://img.lojasrenner.com.br/item/928517904/original/3.jpg" alt=""></div>
+                <h3>Conjunto de moletom Minimal</h3>
+                <p>R$ 249,90</p>
+            </div>
+            <div class="item">
+              <div><img src="https://img.lojasrenner.com.br/item/915647427/original/12.jpg" alt=""></div>
+                <h3>Camisa listrada elegante</h3>
+                <p>R$ 159,90</p>
+            </div>
+            <div class="item">
+               <div><img src="https://img.lojasrenner.com.br/item/929656691/original/3.jpg" alt=""></div>
+                <h3>Calça de Linho</h3>
+                <p>R$ 199,90</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Minimal Wear - Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
